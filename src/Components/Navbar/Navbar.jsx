@@ -38,7 +38,7 @@ const Navbar = () => {
     <Card bg="#FBFDFE" p={4} color="black" position="fixed" w="100%">
       <Container maxW="80%">
         <HStack>
-          <NavLink>Atul Singh</NavLink>
+          <NavLink>Agam Kapoor</NavLink>
           <Spacer />
           <HStack gap={4}>
             <Show above='md'>
