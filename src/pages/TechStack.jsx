@@ -5,7 +5,7 @@ import { FaNpm } from 'react-icons/fa'
 
 const TechStack = () => {
   return (
-    <Box p="20px">
+    <Box p={{base:"5px 0px", md:"50px 0px"}} className='skills'>
       <Heading m="auto" >Tech Stack & Tools</Heading>
       <Flex flexDirection="column" justifyContent="space-around">
           

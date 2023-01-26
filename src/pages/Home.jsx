@@ -3,7 +3,8 @@ import { Text, Heading, VStack, Container, Button } from "@chakra-ui/react"
 
 const Home = () => {
   return (
-    <Container minW="60%">
+    <div className='home'>
+    <Container minW="60%" >
       <VStack gap={2} minH="100vh" justifyContent={"center"} alignItems={"flex-start"}>
         <Text>Hi, my name is</Text>
         <Heading>Agam Kapoor</Heading>
@@ -12,6 +13,7 @@ const Home = () => {
        
       </VStack>
     </Container>
+    </div>
   )
 }
 

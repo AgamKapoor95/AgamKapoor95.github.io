@@ -1,3 +1,4 @@
+
 import {
   Box,
   Flex,
@@ -9,8 +10,10 @@ import {
   useDisclosure,
   Image,
 } from '@chakra-ui/react';
+import Agam_Kapoor_Resume from '../Navbar/Agam_Kapoor_Resume.pdf'
+import portfolio_logo from '../Navbar/portfolio_logo.png'
 import { Link } from 'react-scroll';
-import Agam_Kapoor_Resume from "../assets/Agam_Kapoor_Resume.pdf"
+
 import { ImFolderDownload } from "react-icons/im";
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { useEffect, useState } from 'react';
@@ -48,13 +51,16 @@ export default function Navbar() {
             }}
           />
         </Flex>
-        {/* <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
           <Image 
-            boxSize='50px'
+            boxSize='60px'
             objectFit='cover'
-            src={portfolio_logo} />
+            width= '40%'
+            src={portfolio_logo} 
+            borderRadius='15%'
+            />
 
-        </Flex> */}
+        </Flex> 
 
         <Stack
           flex={{ base: 1, md: 0 }}
@@ -64,7 +70,7 @@ export default function Navbar() {
           <Flex display={{ base: 'none', md: 'flex' }}>
             <DesktopNav />
           </Flex>
-          <a href={Agam_Kapoor_Resume} download="Agam_Kapoor_Resume.pdf">
+          <a href='Agam_Kapoor_Resume'download="Agam_Kapoor_Resume.pdf">
           <Button
             display={{ base: 'none', md: 'inline-flex' }}
             variant='outline'
@@ -117,7 +123,7 @@ const MobileNav = () => {
             <Link style={{margin:"10px 0px"}} to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link>
             <Link style={{marginBottom:"20px"}} to="contact" spy={true} smooth={true} offset={-40} duration={500}>Contact Me</Link>
           </Flex>
-      <a href={Agam_Kapoor_Resume} download="Agam_Kapoor_Resume.pdf">
+      <a href='Agam_Kapoor_Resume' download={Agam_Kapoor_Resume.pdf} >
         <Button
           display='flex'
           variant='outline'

@@ -2,10 +2,10 @@ import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 import { SiGithub } from 'react-icons/si'
-import youtube from "../assets/youtube.png"
+import youtube from "../assests/youtube.png"
 // import acras from "../assets/acras.png"
 // import cricbuzz from "../assets/cricbuzz.png"
-// import trademart from "../assets/trademart.png"
+ import engagebay from '../assests/engagebay.png'
 
 const Projects = () => {
   return (
@@ -50,8 +50,8 @@ const Projects = () => {
     
           </Box>
         </Box>
-        {/* <Box position= "relative" width= {{base:"100%",md:"70%"}} height= {{base:"250px",md:"300px"}} mb={{base:"330px", md:"10%"}}  >
-          <Image src={trademart} objectFit="cover" w="100%" height={{base:"80%", sm:"100%"}} borderRadius="10px" boxShadow="black 0px 5px 15px"/>
+        <Box position= "relative" width= {{base:"100%",md:"70%"}} height= {{base:"250px",md:"300px"}} mb={{base:"330px", md:"10%"}}  >
+          <Image src={engagebay} objectFit="cover" w="100%" height={{base:"80%", sm:"100%"}} borderRadius="10px" boxShadow="black 0px 5px 15px"/>
 
           <Box 
             position="absolute" 
@@ -64,7 +64,7 @@ const Projects = () => {
             backgroundColor="#00000000">
 
             <p style={{fontSize:"12px"}}>Group Project</p>
-            <Text fontSize="25px" color="#c9fff3">Indiamart clone</Text>
+            <Text fontSize="25px" color="#c9fff3">EngageBay clone</Text>
             <Box 
               m={{base:"10px 0px", sm:"5px 0px 30px 0px"}}
               p="10px 20px" 
@@ -73,18 +73,18 @@ const Projects = () => {
               boxShadow = "black 0px 20px 30px -10px"
               backgroundColor="#001c29" 
               >
-              <Text fontSize={{base:"13px",sm:"16px"}}>IndiaMART is an Indian e-commerce company that provides B2B and customer to customer sales services. <br />Collaborative project developed along with four team members in 5 days.</Text>
+              <Text fontSize={{base:"13px",sm:"16px"}}>EngageBay is an Indian e-commerce company that provides B2B and customer to customer sales services.</Text>
               <br />
-            <Text color="#c9fff3" fontSize={{base:"13px",sm:"15px"}} ml="20%" >Redux | React | Chakra UI | HTML | CSS | JavaScript (ES6+) | Firebase | json-server | Render | LocalStorage</Text>
+            <Text color="#c9fff3" fontSize={{base:"13px",sm:"15px"}} ml="20%" >Redux | React | Chakra UI | HTML | CSS | JavaScript (ES6+)  | json-server | Render | LocalStorage</Text>
             <br />
             <Flex justifyContent="end" gap="10px" >
-              <a target="_blank" href="https://github.com/jithstephen13/tested-request-4840"><SiGithub color="#c9fff3" fontSize="20px" /></a>
-              <a target="_blank" href="https://trademart.netlify.app/"><FaExternalLinkAlt color="#c9fff3" fontSize="20px" /></a>
+              <a target="_blank" href="https://github.com/AgamKapoor95/-noble-dime-6328"><SiGithub color="#c9fff3" fontSize="20px" /></a>
+              <a target="_blank" href="https://leafy-sawine-afaf7e.netlify.app/"><FaExternalLinkAlt color="#c9fff3" fontSize="20px" /></a>
             </Flex>
             </Box>
     
           </Box>
-        </Box> */}
+        </Box> 
         {/* <Box position= "relative" width= {{base:"100%",md:"70%"}} height= {{base:"250px",md:"300px"}} mb={{base:"300px", md:"10%"}}  >
           <Image src={acras} objectFit="cover" w="100%" height={{base:"80%", sm:"100%"}} borderRadius="10px" boxShadow="black 0px 5px 15px" />
 
