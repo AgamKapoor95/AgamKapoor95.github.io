@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.322765ac.css",
-    "main.js": "/static/js/main.b4212927.js",
+    "main.css": "/static/css/main.8890cca8.css",
+    "main.js": "/static/js/main.80029dc5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Agam_Kapoor_Resume.pdf": "/static/media/Agam_Kapoor_Resume.6c2ba38d4454c1005420.pdf",
+    "static/media/engagebay.png": "/static/media/engagebay.cd14cd2dc728f0a231e1.png",
+    "static/media/youtube.png": "/static/media/youtube.a769e69b17bae7e662e1.png",
     "static/media/Picture.jpg": "/static/media/Picture.9cfe18a1641e766d4003.jpg",
+    "static/media/portfolio_logo.png": "/static/media/portfolio_logo.8cab13fad028880a6f04.png",
     "index.html": "/index.html",
-    "main.322765ac.css.map": "/static/css/main.322765ac.css.map",
-    "main.b4212927.js.map": "/static/js/main.b4212927.js.map",
+    "main.8890cca8.css.map": "/static/css/main.8890cca8.css.map",
+    "main.80029dc5.js.map": "/static/js/main.80029dc5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.322765ac.css",
-    "static/js/main.b4212927.js"
+    "static/css/main.8890cca8.css",
+    "static/js/main.80029dc5.js"
   ]
 }
